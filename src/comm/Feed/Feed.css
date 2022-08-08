@@ -1,0 +1,242 @@
+.Timeline{
+    display: flex;
+}
+.side-bar{
+    flex: 2;
+   
+    height: 98vh;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+.center-bar{
+    flex: 5;
+}
+.left-bar{
+    flex: 1.5;
+}
+.side-bar ul{
+    margin-top: 2rem;
+   display: grid;
+   gap: 2rem;
+   margin-left: 2rem;
+   list-style: none;
+}
+.side-bar ul li span {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    width: 50%;
+    height: 4vh;
+    border: transparent;
+    cursor: pointer;
+}
+.user-pic{
+    margin-top: 1rem;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-id{
+    margin-left: 1.5rem;
+}
+.user-id span{
+ position: relative;
+ top: -0.8rem;
+ left: 1rem;
+}
+/* cover pic */
+.cover-pic{
+    margin-left: 1rem;
+    width: 80%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+.pic-profile-section{
+    position: relative;
+    left: 15rem;
+    top: -7rem;
+   
+}
+.profile-img{
+    width: 25%;
+    height: 30vh;
+    border-radius: 50%;
+    object-fit: cover;
+    border:solid 0.5rem white;
+}
+.profile-name{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -8rem;
+    right: 4rem;
+}
+.post-box{
+position: relative;
+ top: -5rem;
+  width: 80%;
+  margin-left: 1rem;
+    height: 25vh;
+-webkit-box-shadow: -5px 0px 31px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 0px 31px -7px rgba(0,0,0,0.75);
+box-shadow: -5px 0px 31px -7px rgba(0,0,0,0.75);
+}
+.post-box img{
+    margin-left: 1rem;
+}
+.input-post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -2rem;
+}
+.line{
+    margin-top: 1rem;
+    width: 90%;
+    margin-left: 1.2rem;
+}
+.post-info{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.bi-images{
+
+    color: red;
+}
+.bi-tag-fill{
+    color: rebeccapurple;
+}
+.bi-geo-alt-fill{
+    color: green;
+}
+.bi-emoji-smile{
+    color: rgb(255, 255, 0);
+  font-size: 1.2rem;
+}
+.post-info i{
+    position: relative;
+    left: 0.5rem;
+}
+.share{
+    margin-left: 1rem;
+    background-color: rgb(11, 241, 11);
+    color: white;
+    border: none;
+    width: 8%;
+    height: 4vh;
+    border-radius: 0.2rem;
+}
+
+.user-info{
+   margin-left: 1rem;
+   width: 80%;
+   -webkit-box-shadow: -2px 5px 16px -4px rgba(0,0,0,0.87);
+-moz-box-shadow: -2px 5px 16px -4px rgba(0,0,0,0.87);
+box-shadow: -2px 5px 16px -4px rgba(0,0,0,0.87);
+margin-bottom: 4rem;
+}
+.userinfo-name{
+    margin-left: 1rem;
+    position: relative;
+    top: -0.9rem;
+}   
+.user-info i{
+    margin-left: 37.5rem;
+    position: relative;
+    top: -3rem;
+    cursor: pointer;
+}
+.user-post-info-pic{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+.like-section{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    gap: 15rem;
+    height: 5vh;
+   
+}
+.like-section span:hover{
+color: blue;
+cursor: pointer;
+}
+
+
+.brithday-wish{
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    position: relative;
+    right: 7rem;
+}
+.brithday-wish span{
+ display: inline;
+    margin-left: 0.5em;
+    font-size: 1.1rem;
+}
+.news-img{
+    margin-top: 2rem;
+    width: 120%;
+    object-fit: cover;
+    height: 40vh;
+    border-radius: 1rem;
+}
+.news-info{
+    position: relative;
+    top: -10rem;
+    margin-left: 1rem;
+    color: white;
+    font-size: 1rem;
+}
+.online-friend{
+    font-size: 1.5rem;
+}
+.online-friend h6{
+    position: relative;
+    
+    top: -3rem;
+}
+.online-friend-info{
+position: relative;
+
+top: -2rem;
+right: 2rem;
+}
+.bi-dot{
+    position: relative;
+    left: -1.5rem;
+    top: 0.8rem;
+    color: rgb(58, 206, 58);
+    font-size: 3rem;
+}
+.user-id > .name{
+    margin-left: -1.8rem;
+}
+.user-info > .user-pic{
+    margin-left: 0.8rem;
+}
