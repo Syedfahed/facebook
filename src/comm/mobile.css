@@ -2,9 +2,29 @@
 @media only screen and (max-width: 600px) {
     .navbar{
         display: flex;
+        gap: 1rem;
+    }
+    .facebook-logo{
+        flex: none;
+    }
+    .bi-facebook{
+       margin-left: 1rem;
     }
     .search-box{
-     
+        position: relative;
+        right: 1rem;
+        flex: none;
+        width: 20%;
+        margin-left: none;
+    }
+    .pages{
+        flex: none;
+        gap: 1rem;
+        margin-left: auto;
+    }
+    .icon-section{
+        flex: none;
+        display: none;
     }
     .left-bar{
         display: none;
@@ -29,6 +49,14 @@
         width: 30%;
     }
     .profile-name{
-        margin-left: 12rem;
+        margin-left: 5rem;
+    }
+    .pic-profile-section{
+        width: 50%;
+    }
+    .profile-img{
+        width: 60%;
+       position: relative;
+       right: 4rem;
     }
   }
