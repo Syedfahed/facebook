@@ -1,0 +1,59 @@
+.services{
+    margin-top: 10rem;
+    width: 1349px;
+}
+.services p{
+    margin-left: 5rem;
+    color: red;
+}
+.services h1{
+    margin-top: 5rem;
+    font-size: 4rem;
+    margin-left: 3rem;
+}
+.services h3{
+    
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.three-box{
+    display: flex;
+    width: 88%;
+    gap: 2rem;
+   margin-left: 5rem;
+    margin-top: 5rem;
+}
+.three-box i{
+  font-size: 3rem;
+  color: #26bfb5;
+}
+.three-box h2{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.three-box p{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+@media screen and (max-width:700px){
+   .services h1{
+    font-size: 3rem;
+   }
+   .services h3{
+    font-size: 1.8rem;
+   }
+   .three-box{
+    width: 1349px;
+    display: grid;
+    gap: 5rem;
+   }
+   .three-box h2{
+    font-size: 3rem;
+   }
+   .three-box p{
+    font-size: 2rem;
+    width: 50rem;
+  margin-left: 1rem;
+   }
+}
